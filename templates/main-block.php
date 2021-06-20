@@ -1,4 +1,3 @@
-
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td class="left-collum-index">
@@ -15,13 +14,6 @@
                 </ul>
                 <div class="clearfix"></div>
             </div>
-            <?php
-            if(!empty($_GET)) {
-                if($_GET['login'] === "yes") {
-                    include_once $_SERVER['DOCUMENT_ROOT'] . '/templates/registration-form.php';
-                }
-            }
-            ?>
         </td>
     </tr>
 </table>

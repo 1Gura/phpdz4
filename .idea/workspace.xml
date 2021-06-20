@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8819390-3255-4a4f-968b-6b3aa35156d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logic/main_menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/route/about/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/route/catalog/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/success.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logins.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/catalog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/contacts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/main-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main-block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pSlXvY8M2hxEb2OI0OwynGC2xK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/route/about" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OpenServer\domains\lesson3dz\route\about" />
+      <recent name="E:\OpenServer\domains\lesson3dz\route\catalog" />
+      <recent name="E:\OpenServer\domains\lesson3dz\logic" />
+      <recent name="E:\OpenServer\domains\lesson3dz\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OpenServer\domains\lesson3dz\route\news" />
+      <recent name="E:\OpenServer\domains\lesson3dz\route\contacts" />
+      <recent name="E:\OpenServer\domains\lesson3dz\templates" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8819390-3255-4a4f-968b-6b3aa35156d0" name="Default Changelist" comment="" />
+      <created>1615184415858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615184415858</updated>
+      <workItem from="1615184417101" duration="1660000" />
+      <workItem from="1615188232052" duration="30000" />
+      <workItem from="1615188332010" duration="5316000" />
+      <workItem from="1616522795470" duration="1391000" />
+      <workItem from="1616603197458" duration="43000" />
+      <workItem from="1623954446969" duration="4169000" />
+      <workItem from="1624089569514" duration="6309000" />
+      <workItem from="1624183109225" duration="1589000" />
+      <workItem from="1624185119782" duration="3844000" />
+      <workItem from="1624193730151" duration="50000" />
+      <workItem from="1624207420995" duration="29000" />
+      <workItem from="1624207471372" duration="47000" />
+      <workItem from="1624207531648" duration="28000" />
+      <workItem from="1624207575212" duration="5000" />
+      <workItem from="1624207583259" duration="4691000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

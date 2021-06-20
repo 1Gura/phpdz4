@@ -7,29 +7,30 @@ $mainMenu = [
     ],
     [
         'title' => 'О нас',
-        'path' => '/route/about.php',
+        'path' => '/route/about/',
         'sort' => 2,
     ],
     [
         'title' => 'Контакты',
-        'path' => '/route/contacts.php',
+        'path' => '/route/contacts/',
         'sort' => 4,
     ],
     [
         'title' => 'Новости',
-        'path' => '/route/news.php',
+        'path' => '/route/news/',
         'sort' => 3,
     ],
     [
         'title' => 'Каталог',
-        'path' => '/route/catalog.php',
+        'path' => '/route/catalog/',
         'sort' => 1,
     ],
 ];
 
-function arraySort(&$menu, $key = 'sort', $sort = SORT_ASC)
+function arraySort($menu, $key = 'sort', $sort = SORT_ASC)
 {
     usort($menu, mySort($key, $sort));
+    return $menu;
 }
 
 function mySort($key, $sort): Closure
@@ -50,42 +51,37 @@ function mySort($key, $sort): Closure
 function renderMenu($menu, $position = 'header')
 {
     $style = $position === 'footer' ? 'bottom' : '';
-    $fz = $position === 'footer' ? 'fz12' : 'fz16';
-    echo "<ul class='main-menu $style $fz'>";
-    foreach ($menu as &$item) {
-        $title = cutString($item['title']);
-        if ($item['path'] === $_SERVER['REQUEST_URI']) {
-            echo "<li class='selected'><a href = '{$item['path']}'>{$title}</a></li>";
-        } else {
-            echo "<li><a href = '{$item['path']}'>{$title}</a></li>";
-        }
-    }
-    echo "</ul>";
+    include $_SERVER['DOCUMENT_ROOT'] . './templates/menu.php';
 }
 
-function showMenu($position, &$menu)
+function showMenu($position, $menu)
 {
     if ($position === 'header') {
-        arraySort($menu);
+        $menu = arraySort($menu);
         renderMenu($menu);
     } else if ('footer') {
-        arraySort($menu, 'title', SORT_DESC);
+        $menu = arraySort($menu, 'title', SORT_DESC);
         renderMenu($menu, $position);
     }
 }
 
 function getTitle($menu) {
     foreach ($menu as &$item) {
-        if ($item['path'] === $_SERVER['REQUEST_URI']) {
+        if ((isCurrentUrl($item['path']))) {
             echo "<h1>{$item['title']}</h1>";
             break;
         }
     }
 }
 
-function cutString($line, $length = 12, $appends = '...'): string {
-    if(iconv_strlen($line) > 15) {
-        return mb_substr($line, 0, $length) . $appends;
+function isCurrentUrl($path = '/') {
+    if ($path === parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)) {
+
+        return true;
     }
-    return $line;
+    return false;
+}
+
+function cutString($line, $length = 12, $appends = '...'): string {
+    return mb_strimwidth($line,0,$length, $appends);
 }

@@ -127,6 +127,7 @@ a:hover {
 .footer a {
     color: #ffffff;
 }
+
 .footer a:hover {
     color: #cccccc;
 }
@@ -136,7 +137,7 @@ a:hover {
     margin: 0 0 10px 0;
     padding: 0 10px 0 0;
 }
-    
+
 .project-folders-v {
     margin: 0;
     padding: 0;
@@ -191,7 +192,7 @@ a:hover {
 }
 
 .iat label {
-	display: block;
+    display: block;
 }
 
 p.success {
@@ -200,6 +201,7 @@ p.success {
     font-weight: bold;
     border-radius: 10px;
 }
+
 p.error {
     color: darkred;
     background-color: lightpink;
@@ -217,4 +219,12 @@ p.error {
 
 .selected {
     text-decoration: underline;
+}
+
+.main-menu li {
+    font-size: 16px;
+}
+
+.main-menu.bottom li {
+    font-size: 12px;
 }
