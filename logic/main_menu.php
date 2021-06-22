@@ -23,7 +23,7 @@ function mySort($key, $sort): Closure
 function renderMenu($menu, $position = 'header')
 {
     $style = $position === 'footer' ? 'bottom' : '';
-    include $_SERVER['DOCUMENT_ROOT'] . './templates/menu.php';
+    include $_SERVER['DOCUMENT_ROOT'] . '/templates/menu.php';
 }
 
 function showMenu($position, $menu)

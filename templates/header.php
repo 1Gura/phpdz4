@@ -1,12 +1,12 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'] . './logic/main_menu_array.php';
-require $_SERVER['DOCUMENT_ROOT'] . './logic/main_menu.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/logic/main_menu_array.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/logic/main_menu.php';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link /. href="../../styles.css" rel="stylesheet">
+    <link href="../../styles.css" rel="stylesheet">
     <title>Project - ведение списков</title>
 </head>
 
