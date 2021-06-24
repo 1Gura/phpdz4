@@ -1,27 +1,16 @@
 <?php
-//В задании со звёздочкой попытался реализовать свзяь 1 к 1
+require $_SERVER['DOCUMENT_ROOT'] . '/include/info.php';
+$success = false;
+$error = false;
 if (!empty($_POST)) {
-    $success = false;
-    $error = false;
     if (!empty($_POST['submit'])) {
-        $key = 0;
-        foreach ($logins as $login) {
-            if ($login['login'] === $_POST['login']) {
-                $key = $login['idPassword'];
-            }
-        }
-        foreach ($passwords as $password) {
-            if ($password['password'] === $_POST['password'] && $password['id'] === $key) {
-                $success = true;
-            }
-        }
-        if ($success === false) {
+        if ($_POST['login'] == $login && $_POST['password'] == $password) {
+            $success = true;
+        } else {
             $error = true;
         }
     }
 }
-?>
-<?php
 makeSuccess($success, $error);
 ?>
 <div class="index-auth">
@@ -41,7 +30,7 @@ makeSuccess($success, $error);
                 </td>
             </tr>
             <tr>
-                <td><input type="submit" name="submit" value="Отправить"></td>
+                <td><input type="submit" name="submit" value="Авторизоваться"></td>
             </tr>
         </table>
     </form>

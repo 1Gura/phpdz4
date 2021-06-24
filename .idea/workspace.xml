@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8819390-3255-4a4f-968b-6b3aa35156d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/include/info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/success.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/contacts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/route/contacts/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main-block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration-form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +30,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/route/about" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/include" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OpenServer\domains\lesson3dz\include" />
+      <recent name="E:\OpenServer\domains\lesson3dz" />
       <recent name="E:\OpenServer\domains\lesson3dz\route\about" />
       <recent name="E:\OpenServer\domains\lesson3dz\route\catalog" />
       <recent name="E:\OpenServer\domains\lesson3dz\logic" />
-      <recent name="E:\OpenServer\domains\lesson3dz\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\OpenServer\domains\lesson3dz\route\news" />
@@ -86,7 +89,9 @@
       <workItem from="1624294781525" duration="323000" />
       <workItem from="1624295123296" duration="1211000" />
       <workItem from="1624375403833" duration="26000" />
-      <workItem from="1624375451240" duration="255000" />
+      <workItem from="1624375451240" duration="1068000" />
+      <workItem from="1624470049043" duration="141000" />
+      <workItem from="1624558602926" duration="1147000" />
     </task>
     <servers />
   </component>
