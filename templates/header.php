@@ -1,7 +1,10 @@
 <?php
+session_start();
 require $_SERVER['DOCUMENT_ROOT'] . '/logic/main_menu_array.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/logic/main_menu.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/include/success.php';
+var_dump($_SESSION);
+
 ?>
 <!DOCTYPE html>
 <html>
