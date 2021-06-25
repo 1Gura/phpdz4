@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8819390-3255-4a4f-968b-6b3aa35156d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logic/hitCookie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logic/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/include" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dz5" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -90,7 +92,9 @@
       <workItem from="1624375403833" duration="26000" />
       <workItem from="1624375451240" duration="1068000" />
       <workItem from="1624470049043" duration="141000" />
-      <workItem from="1624558602926" duration="3394000" />
+      <workItem from="1624558602926" duration="3448000" />
+      <workItem from="1624643166374" duration="1652000" />
+      <workItem from="1624645050717" duration="4017000" />
     </task>
     <servers />
   </component>

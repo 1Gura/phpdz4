@@ -228,3 +228,8 @@ p.error {
 .main-menu.bottom li {
     font-size: 12px;
 }
+
+.header-link a {
+    color: white;
+    font-size: 20px;
+}

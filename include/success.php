@@ -1,8 +1,9 @@
 <?php
 function makeSuccess($success = false, $error = false)
 {
-    $_SESSION['isAuthorize'] = 'yes';
     if ($success === true && $error === false) {
+        $_SESSION['isAuthorize'] = 'yes';
+        setcookie('login',$_POST['login'],time()+60*60*24*30);
         ?>
         <p class="success">
             Вы авторизовались!
