@@ -1,16 +1,16 @@
 <?php
-function makeSuccess($success = false, $error = false)
+function makeSuccess()
 {
-    if ($success === true && $error === false) {
-        $_SESSION['isAuthorize'] = 'yes';
-        setcookie('login',$_POST['login'],time()+60*60*24*30);
+    if (!empty($_GET['error']) && $_GET['error'] === 'yes') {
         ?>
-        <p class="success">
-            Вы авторизовались!
-        </p>
-    <?php } else if ($success === false && $error === true) { ?>
         <p class="error">
             Вы ввели неверный логин или пароль!
         </p>
-    <?php }
+        <?php unset($_GET['error']);
+    } else if(!empty($_GET['error']) && $_GET['error'] === 'no') { ?>
+        <p class="success">
+            Вы авторизовались!
+        </p>
+        <?php
+    }
 } ?>

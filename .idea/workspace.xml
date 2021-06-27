@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8819390-3255-4a4f-968b-6b3aa35156d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logic/hitCookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logic/authorize.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/hitCookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/logic/hitCookie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main-block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration-form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

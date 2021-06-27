@@ -16,9 +16,13 @@
             </div>
             <?php
             if (!empty($_GET)) {
-                if ($_GET['login'] === "yes") {
-                    include __DIR__ . '/registration-form.php';
+                if (!empty($_SESSION['isAuthorize']) && $_SESSION['isAuthorize']) { ?>
+                    <h1><?=$_COOKIE['login']?>, Вы залогинены</h1>
+                <?php }
+                else if ($_GET['login'] === "yes") {
+                    require __DIR__ . '/registration-form.php';
                 }
+                unset($_SESSION['login'], $_SESSION['password']);
             }
             ?>
         </td>

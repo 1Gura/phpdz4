@@ -1,31 +1,23 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'] . '/include/info.php';
-$success = false;
-$error = false;
-if (!empty($_POST)) {
-    if (!empty($_POST['submit'])) {
-        if ($_POST['login'] == $login && $_POST['password'] == $password) {
-            $success = true;
-        } else {
-            $error = true;
-        }
-    }
-}
-makeSuccess($success, $error);
+makeSuccess();
 ?>
 <div class="index-auth">
-    <form action="/?login=<?= "yes" ?>" method="post">
+    <form action="../logic/authorize.php" method="post">
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-                <td class="iat">
-                    <label for="login_id">Ваш e-mail:</label>
-                    <input id="login_id" size="30" name="login" value="<?= $_POST['login'] ?? '' ?>">
-                </td>
-            </tr>
+            <?php if (empty($_COOKIE['login'])) { ?>
+                <tr>
+                    <td class="iat">
+                        <label for="login_id">Ваш e-mail:</label>
+                        <input id="login_id" size="30" name="login" value="<?= $_SESSION['login'] ?? '' ?>">
+                    </td>
+                </tr>
+            <?php } else { ?>
+                <h3>Логин уже сохранен на сайте!</h3>
+            <?php } ?>
             <tr>
                 <td class="iat">
                     <label for="password_id">Ваш пароль:</label>
-                    <input id="password_id" size="30" name="password" value="<?= $_POST['password'] ?? '' ?>"
+                    <input id="password_id" size="30" name="password" value="<?= $_SESSION['password'] ?? '' ?>"
                            type="password">
                 </td>
             </tr>
