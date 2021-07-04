@@ -1,6 +1,5 @@
 <?php
 session_start();
-session_unset();
-session_destroy();
+setcookie('login', null, -1, '/');
 header('Location: ../?login=yes');
 exit();

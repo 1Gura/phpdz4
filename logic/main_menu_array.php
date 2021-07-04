@@ -24,5 +24,12 @@ $mainMenu = [
         'title' => 'Каталог',
         'path' => '/route/catalog/',
         'sort' => 1,
-    ],
+    ]
 ];
+if (!empty($_SESSION['isAuthorize']) && $_SESSION['isAuthorize'] = 'yes') {
+    $mainMenu[] = [
+        'title' => 'Личный кабинет',
+        'path' => '/route/personal-area/',
+        'sort' => 6
+    ];
+}

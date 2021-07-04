@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8819390-3255-4a4f-968b-6b3aa35156d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logic/authorize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/dblogic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logic/deleteLoginCookie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/route/personal-area/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/hitCookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/logic/hitCookie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/authorize.php" beforeDir="false" afterPath="$PROJECT_DIR$/logic/authorize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logic/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/main_menu_array.php" beforeDir="false" afterPath="$PROJECT_DIR$/logic/main_menu_array.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main-block.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/registration-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration-form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +32,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dz5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myStore" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -96,6 +100,10 @@
       <workItem from="1624558602926" duration="3448000" />
       <workItem from="1624643166374" duration="1652000" />
       <workItem from="1624645050717" duration="4017000" />
+      <workItem from="1624794867622" duration="256000" />
+      <workItem from="1624982053111" duration="238000" />
+      <workItem from="1625162088039" duration="1243000" />
+      <workItem from="1625395391480" duration="10585000" />
     </task>
     <servers />
   </component>

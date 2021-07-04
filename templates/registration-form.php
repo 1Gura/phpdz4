@@ -13,6 +13,7 @@ makeSuccess();
                 </tr>
             <?php } else { ?>
                 <h3>Логин уже сохранен на сайте!</h3>
+                <a href="../logic/deleteLoginCookie.php">Я не <?= $_COOKIE['login'] ?>, хочу сменить пользователя</a>
             <?php } ?>
             <tr>
                 <td class="iat">
