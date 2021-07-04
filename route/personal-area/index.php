@@ -40,6 +40,15 @@ require $_SERVER['DOCUMENT_ROOT'] . '/templates/header.php';
             </label>
         </div>
     </form>
+    <div class="list-group">
+        <h1>Группы в готорых состоит пользователь</h1>
+        <?php
+        $listGroup = getGroups($_SESSION['user']['id']);
+        while($row = mysqli_fetch_assoc($listGroup)) { ?>
+            <p><?=$row['name']?></p>
+        <?php }
+        ?>
+    </div>
 </div>
 <?php
 require $_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php';

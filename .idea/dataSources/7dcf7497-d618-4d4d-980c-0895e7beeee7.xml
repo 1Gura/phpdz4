@@ -1185,7 +1185,6 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <column id="296" parent="288" name="description">
       <Position>3</Position>
       <DataType>varchar(145)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
     <key id="297" parent="288" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
@@ -1264,17 +1263,14 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <column id="312" parent="290" name="color">
       <Position>3</Position>
       <DataType>varchar(45)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
     <column id="313" parent="290" name="date_create">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
     <column id="314" parent="290" name="user_id">
       <Position>5</Position>
       <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
     <index id="315" parent="290" name="fk_messages_groups_users1_idx">
       <ColNames>user_id</ColNames>

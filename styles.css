@@ -241,6 +241,7 @@ p.error {
     padding: 50px;
     font-size: 20px;
     color: white;
+    display: flex;
 }
 
 .personal-area div {
@@ -251,4 +252,12 @@ p.error {
 
 .personal-area input {
     width: 100%;
+}
+
+.personal-area form {
+    width: 400px;
+}
+
+.personal-area .list-group {
+    width: 400px;
 }

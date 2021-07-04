@@ -16,12 +16,13 @@ if (!empty($_POST)) {
             $_SESSION['isAuthorize'] = 'yes';
             setcookie('login', $_POST['login'], time() + 60 * 60 * 24 * 30, '/');
             $_SESSION['user'] = [
-                'login' => "{$result['login']}",
-                'full_name' => "{$result['full_name']}",
-                'flag_active' => "{$result['flag_active']}",
-                'email' => "{$result['email']}",
-                'flag_consent' => "{$result['flag_consent']}",
-                'phone' => "{$result['phone']}",
+                'id' => $result['id'],
+                'login' => $result['login'],
+                'full_name' => $result['full_name'],
+                'flag_active' => $result['flag_active'],
+                'email' => $result['email'],
+                'flag_consent' => $result['flag_consent'],
+                'phone' => $result['phone'],
             ];
         } else {
             $_SESSION['login'] = $_POST['login'];
