@@ -10,27 +10,26 @@ if (!empty($_COOKIE['login'])) {
 
 if (!empty($_POST)) {
     if (!empty($_POST['submit'])) {
-        $result = authorize($_POST['login'], $_POST['password']);
-        if (mysqli_num_rows($result) > 0) {
-            $result = mysqli_fetch_assoc($result);
+        $user = getUserByLogin($_POST['login'], $_POST['password']);
+        if (!empty($user)) {
             $_SESSION['isAuthorize'] = 'yes';
             setcookie('login', $_POST['login'], time() + 60 * 60 * 24 * 30, '/');
             $_SESSION['user'] = [
-                'id' => $result['id'],
-                'login' => $result['login'],
-                'full_name' => $result['full_name'],
-                'flag_active' => $result['flag_active'],
-                'email' => $result['email'],
-                'flag_consent' => $result['flag_consent'],
-                'phone' => $result['phone'],
+                'id' => $user['id'],
+                'login' => $user['login'],
+                'full_name' => $user['full_name'],
+                'flag_active' => $user['flag_active'],
+                'email' => $user['email'],
+                'flag_consent' => $user['flag_consent'],
+                'phone' => $user['phone'],
             ];
         } else {
             $_SESSION['login'] = $_POST['login'];
             $_SESSION['password'] = $_POST['password'];
-            header('Location: ../?login=yes&error=yes');
+            header('Location: /?login=yes&error=yes');
             exit();
         }
     }
 }
-header('Location: ../?login=yes&error=no');
+header('Location: /?login=yes&error=no');
 exit();

@@ -14,6 +14,7 @@
                 </ul>
                 <div class="clearfix"></div>
             </div>
+
             <?php
             if (!empty($_GET)) {
                 if (!empty($_SESSION['isAuthorize']) && $_SESSION['isAuthorize']) { ?>

@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8819390-3255-4a4f-968b-6b3aa35156d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00ef2c78-06ea-4137-84d1-e10703dce777.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00ef2c78-06ea-4137-84d1-e10703dce777/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00ef2c78-06ea-4137-84d1-e10703dce777/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00ef2c78-06ea-4137-84d1-e10703dce777/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00ef2c78-06ea-4137-84d1-e10703dce777/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dcf7497-d618-4d4d-980c-0895e7beeee7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dcf7497-d618-4d4d-980c-0895e7beeee7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/dblogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/dblogic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logic/authorize.php" beforeDir="false" afterPath="$PROJECT_DIR$/logic/authorize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/personal-area/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/route/personal-area/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main-block.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +99,7 @@
       <workItem from="1625162088039" duration="1243000" />
       <workItem from="1625395391480" duration="14360000" />
       <workItem from="1625419563274" duration="961000" />
+      <workItem from="1625505041307" duration="3840000" />
     </task>
     <servers />
   </component>
